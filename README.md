@@ -10,7 +10,6 @@
 
 ## Resources
 
-- [API Documentation](www.example.com)
-- Backend URL: [www.example.com](www.example.com)
-- Frontend URL: [www.example.com](www.example.com)
+- Backend URL: [www.example.com](https://chimney-node.onrender.com)
+- Frontend URL: [www.example.com]( https://polite-bush-06a01f30f.4.azurestaticapps.net)
 
