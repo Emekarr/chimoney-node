@@ -5,7 +5,7 @@
 
 ## Omissions / Workarounds
 
-- Added a `blacklistedTokens` key to the user collection on Firestore to mark invalidated tokens. In a real-world scenario, Redis would be used with a TTL set to the expiry time of the JWT.
+- Added an `activeSession` key to the user collection on Firestore to mark active tokens. In a real-world scenario, Redis would be used with a TTL set to the expiry time of the JWT.
 - Encryption was not implemented due to time constraints. In a real-world scenario, an attestation service would be used to verify the authenticity of the client before initiating a secure key exchange using Elliptic Curve Diffie-Hellman protocol.
 
 ## Resources
