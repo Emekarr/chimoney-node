@@ -25,7 +25,7 @@ export default class ExpressServer implements ServerInterface {
 
     // rate limiter
     server.use(
-      RateLimiter.init(10 * 60 * 1000, 30, {
+      RateLimiter.init(10 * 60 * 1000, 3000, {
         standardHeaders: true,
         legacyHeaders: false,
         handler: (req, res, next) => {
