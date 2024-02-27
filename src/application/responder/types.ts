@@ -1,4 +1,4 @@
-export interface ResponderInterface {
+export default interface ResponderInterface {
   respond(
     ctx: any,
     message: string,

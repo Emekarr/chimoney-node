@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nodemon ./src/main.ts",
     "build": "tsc",
-    "start": "npm run build && node build/src/main.js",
+    "start": "rm -rf build && npm run build && node build/main.js",
     "test": "NODE_ENV=test jest --runInBand"
   },
   "dependencies": {
