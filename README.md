@@ -13,3 +13,13 @@
 - Backend URL: [www.example.com](https://chimney-node.onrender.com)
 - Frontend URL: [www.example.com]( https://polite-bush-06a01f30f.4.azurestaticapps.net)
 
+
+## How to run locally
+- After cloning the repo run `npm i` to install all dependencies
+- Create a .env file and proceed to fill in the env variables specified
+- Start the project using `npm run dev`
+
+## Approach
+- The project was built using clean architecture principles which aimed at decoupling the various layers of the application to give freedom to swap out different parts of the application in the future.
+- `tsyringe` was used as a dependency injection in this project. It is used to initialise classes which inherit from the infrastructure layer.
+- The only relationship between the infrastruecture layer into the application layer is for the above `tsyringe` to inject them.
