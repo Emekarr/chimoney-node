@@ -10,14 +10,15 @@
 
 ## Resources
 
-- Backend URL: [www.example.com](https://chimney-node.onrender.com)
-- Frontend URL: [www.example.com]( https://polite-bush-06a01f30f.4.azurestaticapps.net)
+- [Backend URL](https://chimoney-node-iea4.onrender.com)
+- [Frontend URL](https://mango-tree-041520510.4.azurestaticapps.net)
 
 
 ## How to run locally
 - After cloning the repo run `npm i` to install all dependencies
 - Create a .env file and proceed to fill in the env variables specified
 - Start the project using `npm run dev`
+- Use at least `node 18.18.2`
 
 ## Approach
 - The project was built using clean architecture principles which aimed at decoupling the various layers of the application to give freedom to swap out different parts of the application in the future.
